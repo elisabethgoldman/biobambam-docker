@@ -1,4 +1,4 @@
-FROM ubuntu:disco-20190310
+FROM ubuntu:latest
 
 MAINTAINER Jeremiah H. Savage <jeremiahsavage@gmail.com>
 
