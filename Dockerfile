@@ -1,6 +1,8 @@
-FROM ubuntu:latest
+FROM ubuntu:20.04
 
 MAINTAINER Jeremiah H. Savage <jeremiahsavage@gmail.com>
+
+ARG DEBIAN_FRONTEND=noninteractive
 
 ENV LD_LIBRARY_PATH /usr/local/lib
 
